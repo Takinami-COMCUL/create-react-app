@@ -6,20 +6,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Hello from Render!
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <h1>Google Drive認証</h1>
+          <button id="authorize_button" onclick="handleAuthClick()">認証</button>
+          <button id="signout_button" onclick="handleSignoutClick()">ログアウト</button>
+    </div>
       </div>
     );
   }
