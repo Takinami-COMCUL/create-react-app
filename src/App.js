@@ -9,8 +9,6 @@ class App extends Component {
         <h1>Google Drive認証</h1>
           <button id="authorize_button" onclick="handleAuthClick()">認証</button>
           <button id="signout_button" onclick="handleSignoutClick()">ログアウト</button>
-    </div>
-      </div>
     );
   }
 }
